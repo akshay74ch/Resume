@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c5e1761ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-business-time" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Akshay Kumar</span> <br> from India.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------About section----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Akshay Kumar, currently in my final year pursuing B.Tech in Computer Science and Engineering at Galgotias University. I've built a strong foundation in programming languages like Java, Python, HTML, CSS, and JavaScript. Through coursework, projects, and hackathons, I've gained practical skills in software development, database management, and web technologies. Beyond my technical pursuits, I find joy in playing handball, designing, painting, crafting, and reading books. As a national-level debater and sports player, I embody discipline, determination, hard work, and teamwork. <br>Thank You!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing responsive websites for clients. Using MERN stack, HTML, CSS, JAVASCRIPT,REACT and etc.</li>
+                            <li><span>Graphic Designing</span><br>Expert using advance tools.</li>
+                            <li><span>Digital Marketing</span><br>Skilled in digital marketing and new market trends.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer</span><br>I interned as a full-stack developer, leading a team of six, showcasing proficiency in HTML, CSS, and JavaScript.</li>
+                            <li><span>Graphic Designing</span><br>I have applied my skills to numerous projects to date.</li>
+                            <li><span>Digital Marketing</span><br>I have worked as a digital marketer for multiple companies over the past two years.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Galgotias University</span><br>B.tech (CSE) <br>Score-8.43 CGPA</li>
+                            <li><span>Kendriya Vidyalaya Bareilly</span><br>Intermediate <br>Score-83.4%</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------portfolio------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Design and build fully responsive and user-friendly web applications.</p>
+                    <a href="#">Learn MORE</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Designing</h2>
+                    <p>Bringing your vision to life with stunning design.</p>
+                    <a href="#">Learn MORE</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Elevate your brand with powerful digital marketing strategies.</p>
+                    <a href="#">Learn MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------portfolio2-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/port1.jpg">
+                    <div class="layer">
+                        <h3>Stock Price Prediction Model.</h3>
+                        <p>Prediction model using Machine Learning and Natural Proccessing Language.</p>
+                        <a href="#"><i class="fa-solid fa-arrows-to-dot"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/port2.avif">
+                    <div class="layer">
+                        <h3>Movie Ticket Booking Website.</h3>
+                        <p>Developed a comprehensive movie ticket booking platform using the MERN stack.</p>
+                        <a href="#"><i class="fa-solid fa-arrows-to-dot"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/port3.avif">
+                    <div class="layer">
+                        <h3>Human Safety Android application.</h3>
+                        <p>An Android app dedicated to human safety.</p>
+                        <a href="#"><i class="fa-solid fa-arrows-to-dot"></i></a>
+                    </div>
+                </div>              
+            </div>
+            <a href="#services" class="btn">See more</a>
+        </div>
+    </div>
+
+ <!---Contact Page------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> akshay74ch@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 91+ 9548684874</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Akshaykumar_CV.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright Akshay Kumar <i class="fa-solid fa-heart"></i> Portfolio</p>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = documen.getElementById(sidemenu);
+
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbydnIzdEto0l11iUbDDBSr6KZFDGBtoYIHeejyoXnfZhbW1CY2dhHkA7y_8lU3xBirFmQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+</html>
